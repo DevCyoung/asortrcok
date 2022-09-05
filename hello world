@@ -1,0 +1,32 @@
+//gpu 16개연산 동시가능 병렬연산 특화 
+//쓰레기값
+//용어에대해서 정확히알것
+//ctrl + m m
+//리터럴
+//상수const
+//데이터 영역, 메모리 구조
+//lvaue rvalue
+//연산자 우선순위
+//XOR암호화
+
+
+#include <iostream>
+
+
+
+int main(void)
+{
+	int edf =   5;
+	char student = 'a';
+	//auto 키워드가 더느림(유추한번하기때문)
+	//데이터 타입 추론
+	decltype(edf) b;
+
+	int a;
+	std::cin >> a;
+	printf("%d입력하셨군요\n",a);
+
+	                
+	const int asd = 3;
+	return 0;
+}
